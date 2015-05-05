@@ -1,0 +1,17 @@
+name: Telepads
+author: br456
+version: 1.0
+description: A teleportation plugin
+main: me.br456.Telepads.Telepads
+softdepend: [Vault]
+commands:
+  telepad:
+permissions:
+  telepad.create:
+    default: op
+  telepad.remove:
+    default: op
+  telepad.list:
+    default: op
+  telepad.setpos:
+    default: op
